@@ -1,7 +1,14 @@
 # yt-dlp-for-Brighteon
 yt-dlp doesn't support downloading Brighteon playlists with proper video names, so I made some bash code to help. 
 
-For anyone with [this issue](https://github.com/yt-dlp/yt-dlp/issues/2017), I'll still be working on a way to download entire channels. Coming soon!
+For anyone with [this issue](https://github.com/yt-dlp/yt-dlp/issues/2017), use [download-brighteon-channel]().sh.
 
 ## Usage
-Just do `./brighteon-playlist-to-videos.sh (put your playlist url here)`. The script will take care of the rest!
+### Channels
+Do `./download-brighteon-channel.sh (BASE channel url here: NOT a videos/playlist page)`. The script will take care of the rest!
+
+### Playlists
+Do `./brighteon-playlist-to-videos.sh (put your playlist url here)`. Then chillax.
+
+## Dependencies
+[yt-dlp](https://github.com/yt-dlp/yt-dlp/)
